@@ -91,3 +91,22 @@ cosne Varible name = (require('./fille Adrrres ');)
 তারপর আমরা ওই function গুলা যে কন জায়গায় use করতে পারব ইচ্ছা মত 
 
 custom module কন use করে জেখন অনেক বড় একটা project নিয়ে কাজ করি তখন ছোট ছোট module vag kore kaj kori code ke reuse korte 
+
+
+
+=====================================  built-in module ============================================
+
+built-in Module হল যে NPM install  ছাড়া directly use করা যায় এই একটা একটা করে দেখব 
+
+fs
+http
+path
+URL
+os
+crypto
+events
+stream
+zlib
+
+
+fs হল কন ফাইল CURT operation kore 
