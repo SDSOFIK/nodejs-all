@@ -30,7 +30,7 @@ node.js run করার আগে আমদের জানে হবে node.j
 
 
 
-======================== global Value ======================================
+======================== global Object ======================================
 
 // golabal object এ এমন একটা জিনিস যেটা তুমি সব জায়গায় (any module) কোনো require বা import ছাড়াই ব্যবহার করতে পারো।
 /*__dirname
@@ -73,3 +73,21 @@ global.myName = "SD Sofik"
 
 //  এখন আমরা যেইখানেই এই নাম টাঁকে লগ করি না কেন আমরা ওর ভালু দেখতে পারব 
 console.log(myName)
+
+
+================================== coustum module =========================
+
+আমরা ইচ্ছা মত ছোট ছোট অংশে module ভাগ করে নিয়ে কাজ করে থাকি মনে করি আমরা একটা যোগ এর function বানাব ওইটা সব জায়গায় বেহবার করব 
+
+Custom Module মানে তুমি নিজে একটা file বানিয়ে সেখানে code লিখবা, তারপর অন্য file থেকে সেটা use করবা।
+
+যেই module a আমরা custom code করব সেইখানে export করতে হয় 
+
+module.exports = { functin name 1, function name 2  };
+
+যেই module এ use করব সেইখানে সেই খানে 
+cosne Varible name = (require('./fille Adrrres ');)
+
+তারপর আমরা ওই function গুলা যে কন জায়গায় use করতে পারব ইচ্ছা মত 
+
+custom module কন use করে জেখন অনেক বড় একটা project নিয়ে কাজ করি তখন ছোট ছোট module vag kore kaj kori code ke reuse korte 
