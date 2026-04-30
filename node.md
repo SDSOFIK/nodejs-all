@@ -94,7 +94,7 @@ custom module কন use করে জেখন অনেক বড় একটা
 
 
 
-=====================================  built-in module ============================================
+=====================================  built-in module =================================
 
 built-in Module হল যে NPM install  ছাড়া directly use করা যায় এই একটা একটা করে দেখব 
 
@@ -109,4 +109,25 @@ stream
 zlib
 
 
-fs হল কন ফাইল CURT operation kore 
+fs হল কন ফাইল CRUD operation kore  
+
+C -- Crate 
+R----  Read 
+U --- Update 
+D ---- Delete 
+
+
+HTTP সার্ভার তৈরি করার জন্য ব্যবহার হয়। আমরা এইটা node.js file করে run korci 
+
+
+
+path হল কোন ফাইল কোন পাথ এ আছে ফাইল এর নামে host name
+ফাইলের path ঠিক করা
+folder/file নাম আলাদা করা
+cross-platform path support
+
+
+
+// URL  হল একটা URL এর ভিতর কি কি আছে কোন টা host name category name and products name all 
+
+os hole operating system info নেওয়ার জন্য। CPU mamory ram er info paoya jay 
