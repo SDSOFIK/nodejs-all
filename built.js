@@ -102,3 +102,4 @@ console.log(myUrl.hash);      // #top
 console.log(os.platform());
 console.log(os.totalmem());
 console.log(os.uptime());
+console.log("aro onk ace ")
