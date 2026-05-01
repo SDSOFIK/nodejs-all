@@ -131,3 +131,10 @@ cross-platform path support
 // URL  হল একটা URL এর ভিতর কি কি আছে কোন টা host name category name and products name all 
 
 os hole operating system info নেওয়ার জন্য। CPU mamory ram er info paoya jay 
+
+
+
+====== Url Route Different Routes Manually
+
+route holo url jkkn jei url a jabe tkkn sei page a jabe 
+
