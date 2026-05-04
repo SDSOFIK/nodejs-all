@@ -8,7 +8,9 @@ const server = http.createServer((req, res) => {
   //যেখন url a request করবে ওই request টা let url a আসে জমা হবে  
 let url = req.url
 
+// url যদি কেন requst na kore thle 
 if (url === "/"){
+  // 
 
 res.write("Home Page ")
   res.end();
