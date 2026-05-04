@@ -131,3 +131,8 @@ cross-platform path support
 // URL  হল একটা URL এর ভিতর কি কি আছে কোন টা host name category name and products name all 
 
 os hole operating system info নেওয়ার জন্য। CPU mamory ram er info paoya jay 
+
+
+// Sending HTML, JSON, and Files from Server 
+
+আমরা কি ভাবে  HTML, JSON File user কাছে দেখাব  
