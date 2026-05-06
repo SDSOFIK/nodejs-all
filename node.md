@@ -133,17 +133,18 @@ cross-platform path support
 os hole operating system info নেওয়ার জন্য। CPU mamory ram er info paoya jay 
 
 
-<<<<<<< HEAD
 // Sending HTML, JSON, and Files from Server 
 
 আমরা কি ভাবে  HTML, JSON File user কাছে দেখাব  
-=======
 
 ====== Url Route Different Routes Manually
 
 route holo url jkkn jei url a jabe tkkn sei page a jabe 
 
 
-// 
+// hendling query string and url parsting 
 
->>>>>>> 60af462e49eb763ba95f988b76f8f313a017003d
+
+qurey string হল যে কেন ডাটা serch দিয়ে বা url a ? মার্ক এর পর যেই url ta থাকে তাকে query string bole 
+ 
+
