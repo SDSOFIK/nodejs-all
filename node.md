@@ -148,3 +148,41 @@ route holo url jkkn jei url a jabe tkkn sei page a jabe
 qurey string হল যে কেন ডাটা serch দিয়ে বা url a ? মার্ক এর পর যেই url ta থাকে তাকে query string bole 
  
 
+ynchronous (সিঙ্ক্রোনাস) কী?
+
+Synchronous execution মানে হলো কাজগুলো একটার পর একটা ক্রমানুসারে (line by line) সম্পন্ন হয়।
+একটা কাজ শেষ না হওয়া পর্যন্ত পরের কাজ শুরু হয় না।
+
+সহজভাবে:
+“আগের কাজ শেষ না হলে পরের কাজ হবে না”
+
+উদাহরণ:
+console.log("A");
+console.log("B");
+console.log("C");
+
+আউটপুট:
+A
+B
+C
+
+Asynchronous (অ্যাসিঙ্ক্রোনাস) কী?
+
+Asynchronous execution মানে হলো কাজগুলো একসাথে শুরু হতে পারে, কিন্তু যেটা সময় নেয় সেটা ব্যাকগ্রাউন্ডে চলে যায়।
+অন্য কাজগুলো থেমে থাকে না।
+
+সহজভাবে:
+“একটা কাজ চলতে থাকলেও অন্য কাজ চলতে পারে”
+
+উদাহরণ:
+console.log("A");
+
+setTimeout(() => {
+    console.log("B");
+}, 2000);
+
+console.log("C");
+আউটপুট:
+A
+C
+B
