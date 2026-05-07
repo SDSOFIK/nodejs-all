@@ -215,3 +215,12 @@ function callReeve(c){
 }
 
 callReeve(callBack)
+
+
+
+==============================  promise =========================
+
+pormise হল একটা spacial object যে কন একটা কাজ বা অ্যাসিঙ্ক্রোনাস অপারেশনকে হা বা না করে উত্তর দেই 
+ use করা হয় যে গুলা কাজ এ অনেক সময় লাগে সেইগুলা কাজ করা হয়ে যেমন যেমন database query, API call, file read, timer ইত্যাদি।
+
+ মুলত promise 3 ta kaj kore Pending  কাজ চলছে esolved / Fulfilled কাজ সফল হয়েছে Rejected  কাজ fail হয়েছে
