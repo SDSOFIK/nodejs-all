@@ -224,3 +224,9 @@ pormise হল একটা spacial object যে কন একটা কাজ 
  use করা হয় যে গুলা কাজ এ অনেক সময় লাগে সেইগুলা কাজ করা হয়ে যেমন যেমন database query, API call, file read, timer ইত্যাদি।
 
  মুলত promise 3 ta kaj kore Pending  কাজ চলছে esolved / Fulfilled কাজ সফল হয়েছে Rejected  কাজ fail হয়েছে
+
+
+ =============================== async await =====================
+
+ await async হল হচ্ছে JavaScript এর asynchronous কাজ সহজভাবে handle করার system।
+এটা mainly Promise এর উপর কাজ করে।  আগে Promise করলে অনেক .then and .case দিতে হইত এই পরে আইগুলা লাগে না চল আমরা দেখি 
