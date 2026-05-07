@@ -186,3 +186,32 @@ console.log("C");
 A
 C
 B
+
+
+
+================ callback function ============================
+
+callback function হল যে ফাংশন টা পরে কল করবে  এমন একটি ফাংশন যা অন্য কোনো ফাংশনের আর্গুমেন্ট হিসেবে পাস করা হয় এবং একটি নির্দিষ্ট কাজ সম্পন্ন হওয়ার পর সেটিকে এক্সিকিউট 
+
+
+function CallBack(){
+  console.log("call back")
+}
+
+function callReeve(callback){
+  CallBack()
+}
+
+callReeve()
+
+or 
+
+function CallBack(){
+  console.log("call back")
+}
+
+function callReeve(c){
+  
+}
+
+callReeve(callBack)
