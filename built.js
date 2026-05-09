@@ -103,3 +103,9 @@ console.log(os.platform());
 console.log(os.totalmem());
 console.log(os.uptime());
 console.log("aro onk ace ")
+
+
+require ("dotenv").config();
+console.log(process.env.PORT)
+console.log(process.env.DATABASE_URL)
+console.log(process.env.PASSWORD_BD)

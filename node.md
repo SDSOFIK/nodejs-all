@@ -230,3 +230,16 @@ pormise হল একটা spacial object যে কন একটা কাজ 
 
  await async হল হচ্ছে JavaScript এর asynchronous কাজ সহজভাবে handle করার system।
 এটা mainly Promise এর উপর কাজ করে।  আগে Promise করলে অনেক .then and .case দিতে হইত এই পরে আইগুলা লাগে না চল আমরা দেখি 
+
+
+
+================= Working with Environment Variables
+
+Environment হল এমন একটা ফাইল যেখানে আমদের sensitive data গুলা রাখি যেমন pot no and pasword 
+
+.env file এর নাম দিতে হবে এবং সব কিছু বড় হাতের হইতে হবে কন ফাকা বা স্পেছ রাখা যাবে না একটা লাইন শেষ হলে এন্টার দিতে হবে 
+
+তারপর একটা পাকেজ pacekg install করতে হবে  npm install dotenv js file থেকে require kore sob ascces পাওয়া যাবে  built.js a file a rakhci 
+
+
+আমরা যদি কন ফাইল github না তুলতে চাই thel 

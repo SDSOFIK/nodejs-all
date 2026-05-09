@@ -16,5 +16,8 @@
     "url": "https://github.com/SDSOFIK/nodejs-all/issues"
   },
   "homepage": "https://github.com/SDSOFIK/nodejs-all#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
