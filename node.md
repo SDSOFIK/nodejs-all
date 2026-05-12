@@ -243,3 +243,24 @@ Environment হল এমন একটা ফাইল যেখানে আম
 
 
 আমরা যদি কন ফাইল github না তুলতে চাই thel 
+
+
+======================= json in node js ============================== 
+
+json হল একটা ডাটা ফরমেট যে কনফিগারেশন, ডেটা স্টোরেজ এবং API যোগাযোগের জন্য ব্যবহৃত হয় আমরা যেখন ডাটাবেজ নিয়ে কাজ করব তখন আমদের অনেক লাগবে 
+
+{
+  name : "sofik"
+  age : 22
+  profession : "devloper"
+}
+
+এমন ফরমেট হয়ে থাকে 
+
+========================== npm and package.json================
+
+npm হল একটা Node.js-এর ডিফল্ট প্যাকেজ ম্যানেজার এবং বিশ্বের বৃহত্তম সফটওয়্যার রেজিস্ট্রি যেখানে হাজার হাজার package ace ja amra nodejs a use korte pari https://www.npmjs.com/ this web site npm 
+
+package.json হল আমদের full project er কি কি আছে এবং কোন কোন npm আছে সকাল verson and delites দেওয়া থাকে  
+
+যদি node_modules delete kore dei তাও আমরা ওই npm all info package.json a থাকে আবার যদি npm i dei thle all file back cole ase .
